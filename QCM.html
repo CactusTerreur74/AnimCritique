@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<title>Anim'Critique</title>
+	<link href="../style.css" rel="stylesheet" type="text/css">
+  <script>var score = 0</script>
+  <link rel="shortcut icon" href="../logo.ico" type="image/x-icon">
+</head>
+  
+<body>
+  <a href="../index.html"><div class="Img"><h1>Anim'Critique</h1><h3>La référence en critique manga</h3></div></a><br>
+	<img src="logo.ico" alt="Logo"><br>
+	<h2>QCM One Piece</h2>
+  
+  <script src="script.js"></script>
+
+	<h5>Première question :</h5>
+  
+  <p>Qui est l'auteur de One Piece ?</p>
+  <select id="choix" name="auteur">
+  <option value="Sans Nom"> -- ¤¤ -- </option>
+  <option value="Oda"> Eiichiro Oda </option>
+  <option value="Yoda"> Maître Yoda </option>
+  <option value="Odin"> Odin </option>
+  </select>
+  <input type="button" value="Valider" onclick="Question1()">
+  
+
+	<h5>Deuxième question :</h5>
+
+  <p>Vrai ou Faux : Sniperking et Usopp sont une seule et même personne</p>
+  <input type="button" value="Vrai" onclick="Question2a()"/><input type="button" value="Faux" onclick="Question2b()"/>
+
+	<h5>Troisième question :</h5>
+	<p>One Piece est paru pour la première fois en :</p>
+	<FORM>
+		<input type="text" name="Valeur_Reponse" id="Id_Reponse" value=""/>
+		<input type="button" value="Valider" onclick="Question3()"/>
+	</FORM>
+
+	<h5>Quatrième question :</h5>
+  <p>Qui est le timonier de l'équipage ?</p>
+  <input type="button" value="Franky" onclick="Question4a()"/><input type="button" value="Chopper" onclick="Question4b()"/><input type="button" value="Jinbei" onclick="Question4c()"/><input type="button" value="Sanji" onclick="Question4d()"/>
+
+  <h5>Cinquième question :</h5>
+  <p>Qui faisait partie de l'équipage de Roger ?</p>
+  <p class="Quiz">
+	<label><input type="checkbox" id="Case1"> Shanks</label><br>
+  <label><input type="checkbox" id="Case2"> Kuma</label><br>
+  <label><input type="checkbox" id="Case3"> Crocus</label><br>
+  <label><input type="checkbox" id="Case4"> Crocodile</label>
+	</p>
+  <input type="button" id="button1" value="Valider" onclick="Question5()"/>
+
+  <h5>Sixième question :</h5>
+  <p>Comment s'appelle le bonbon qui a permis à Chopper de pouvoir changer de forme ?</p>
+  
+      <p class="Quiz">
+      <input type="radio" id="X" name="X" value="X" checked>
+      <label for="X">-- ¤¤ --</label><br>  
+        
+      <input type="radio" id="Robot" name="X" value="Robot">
+      <label for="Robot">Robot Ball</label><br>
+
+      <input type="radio" id="Rubber" name="X" value="Rubber">
+      <label for="Rubber">Rubber Ball</label><br>
+    
+      <input type="radio" id="Rumble" name="X" value="Rumble">
+      <label for="Rumble">Rumble Ball</label></p>
+
+  <input type="button" id="button2" value="Valider" onclick="Question6()"/>
+  
+  <br><br><br>
+  <p>Votre score total est de <span id="score">0</span> !</p>
+  <br><br><br>
+  
+</body>
+
+</html>

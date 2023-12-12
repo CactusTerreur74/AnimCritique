@@ -1,0 +1,307 @@
+html, body {
+  background-color: #e2cfe1;
+	background-image: url("https://wallpapersmug.com/u/a801aa/sky-clouds-original-anime.jpg");
+	/*background-image: url('https://wallpapercave.com/wp/wp9691468.jpg');*/
+  /*https://wallpapersmug.com/download/2880x1800/a801aa/sky-clouds-original-anime.jpg*/
+  text-align:center;
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+  text-align: center;
+  font-size: 5vmin;
+  font-weight: bold;
+  box-sizing: content-box;
+  width: 20vw;
+  border: solid 0.5vmin;
+  padding: 2vmin;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+
+h2{
+  text-align: center;
+  font-size: 2.7vmin;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h3{
+  text-align: center;
+  font-size: 2.7vmin;
+  font-weight: bold;
+}
+
+h4{
+  text-align: center;
+  margin: 3.2vmin;
+  text-decoration: underline;
+  font-size: 2.5vmin;
+  font-weight: bold;
+}
+
+h5{
+  text-align: center;
+  text-decoration: underline;
+  margin: 3.2vmin;
+  font-size: 2.3vmin;
+  font-weight: bold;
+  color: black;
+}
+
+
+ul{
+  box-sizing: content-box;
+  width: 10vmin;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+ol{
+  box-sizing: content-box;
+  width: 10vmin;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.Bdg li{
+  display: inline ;
+  text-decoration: none ;
+  color: black ;
+}
+
+.Img {
+  background-color: #000000;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.etsystatic.com/15320292/r/il/304b55/3215720991/il_fullxfull.3215720991_fdas.jpg');
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  padding: 5vmin;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img{
+	margin: auto;
+  max-width: 15vw;
+  max-height: 70vh;
+}
+
+.cover{
+  width: 10vw;
+}
+
+.gauche{
+  position: absolute;
+  left: 10vmin;
+  width: 15vw ;
+}
+
+.droite{
+  position: absolute;
+  right: 10vmin;
+  width: 15vw ;
+}
+
+table{
+  border-color: #0a0a0a ;
+  text-align: center ;
+  margin: auto;
+  border: solid 3px ; 
+  cellspacing: 1px ; 
+  cellpadding: 1px ; 
+  width: 40vw ; 
+}
+
+th, td{
+  border: solid 1px;
+  border-color: #0a0a0a ;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:active{
+	text-decoration: none;
+	color : blue;
+}
+
+.lienaccueil{
+	background: #2cc7d3;
+  text-decoration: none;
+  display: inline-block;
+  width: 15vmin;
+  margin-right: 1vmin;
+	margin-top: 1vmin;
+	margin-bottom: 1vmin;
+	margin-left: 1vmin;
+  text-align: center;
+  line-height: 3;
+  color: black;
+	border-radius: 5vmin;
+}
+
+.lienaccueil:hover{
+	background: #26aeb9;
+}
+
+.lienaccueil:active{
+	background: #78dbe2;
+	color: black;
+}
+
+.Quiz {
+  box-sizing: content-box;
+  width: 8%;
+  padding: 10px;
+  text-align: left;
+  margin: auto;
+}
+
+.container{
+  display: inline-grid;
+  grid-template-columns: auto auto auto ;
+  padding: 0.08vw;
+  }
+
+.grid-item{
+  text-align: center;
+  padding: 10px;
+  margin-right: 0.3vw;
+	margin-left: 0.3vw;
+	margin-top: 0.1vh;
+	margin-bottom: 0.1vh;
+}
+
+.Pdg{
+  display: block;
+  max-width: 24vw;
+  max-height: 24vh;
+}
+
+#sommaire{
+	text-align: center ;
+  font-size: 2.5vmin ;
+  font-weight: bold ;
+  text-decoration: underline ;
+}
+
+#listesommaire{
+	box-sizing: content-box;
+  width: 10%;
+  text-align: left;
+}
+
+#boitesommaire{
+	box-sizing: content-box;
+  margin: auto;
+}
+
+#titreQcm{
+	text-align: center ;
+  font-size: 1.3vw ;
+  font-weight: bold ;
+  text-decoration: none ;
+}
+
+#catalogue{
+  box-sizing: content-box;
+  width: 100%;
+  margin-left: 10vw;
+  margin-right: auto;
+  text-align: left;
+}
+
+#mangasemaine{
+	box-sizing: content-box;
+  width: 100%;
+  margin-left: 13vw;
+	margin-right: 5vw;
+  text-align: left;
+}
+
+#accueil{
+  border: 1vmin solid;
+	border-color: #9dd9fd;
+	background-color: #bce5fd;
+	margin-left: 30vw;
+	margin-right: 30vw;
+	padding: 1.5vmin;
+	border-radius: 8vmin;
+	box-shadow: 8px 8px rgba(0,0,0,0.5);
+}
+
+.lisommaire{
+	color: black;
+}
+
+.lisommaire:hover{
+	color: #ff2000;
+}
+
+.lisommaire:active{
+	color: #ff614a;
+}
+
+.lienaccueil2{
+	color: black
+}
+
+.lienaccueil2:hover{
+	color: #ff2000;
+}
+
+.lienaccueil2:active{
+	color: #ff614a;
+}
+
+.ligenre{
+  text-decoration: none ;
+  color: black ;
+}
+
+#lien_ancre_4{
+  background-color: #1c87c9;
+  box-shadow: 0 1vmin 0 #105cad;
+  color: white;
+  padding: 1vmin;
+  position: relative;
+  text-decoration: none;
+	display: inline-block;
+	border-radius: 3vmin;
+}
+
+#lien_ancre_4:hover{
+	background-color: #1773aa;
+}
+
+#lien_ancre_4:active{
+	background-color: #55b0e8;
+}
+
+.ligenre:hover{
+	color: #ff2000;
+}
+
+.ligenre:active{
+	color: #ff614a;
+}
+
+.limanga{
+	text-decoration: none;
+	color: black;
+}
+
+.limanga:hover{
+	color: #ff2000;
+}
+
+.limanga:active{
+	color: #ff614a;
+}
